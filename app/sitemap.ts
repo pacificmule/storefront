@@ -1,2 +1,13 @@
 import type { MetadataRoute } from 'next';
-export default function sitemap():MetadataRoute.Sitemap {return ['en','es'].map(locale=>({url:`https://pacificmule.com/${locale}`,lastModified:new Date(),changeFrequency:'monthly',priority:1,alternates:{languages:{en:'https://pacificmule.com/en',es:'https://pacificmule.com/es'}}}));}
+import { getSiteUrl } from '@/lib/site';
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const base = getSiteUrl();
+  return ['en', 'es'].map((locale) => ({
+    url: `${base}/${locale}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 1,
+    alternates: { languages: { en: `${base}/en`, es: `${base}/es` } },
+  }));
+}
