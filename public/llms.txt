@@ -1,0 +1,25 @@
+# Pacific Mule
+
+> Independent digital studio focused on automotive web design and e-commerce development.
+
+Official website: https://pacificmule.com/en
+Spanish website: https://pacificmule.com/es
+
+## Services
+- Custom websites and online stores
+- Website redesign and modernization
+- E-commerce and content management integrations, including Saleor and Payload CMS when appropriate
+- Technical SEO, search-friendly content, analytics and product image refinement
+
+## Industry focus
+Automotive parts and accessories, wheels and tires, dealerships, custom shops, detailing, and automotive service businesses.
+
+## Selected work
+- https://147pacific.com
+- https://hecosvc.com
+- https://progressive-auto-sports.vercel.app
+
+## Contact
+Visit https://pacificmule.com/en#contact
+
+We do not guarantee search rankings or outcomes in AI-generated answers.
